@@ -9,7 +9,7 @@ def myAccount():
 
 def test_initial_balance():
     """makes sure initial balance is 0"""
-    myAccount.Account("user")
+    myAccount = Account("user")
     assert myAccount.get_balance() == 0
 
 def test_deposit():
